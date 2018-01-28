@@ -188,8 +188,9 @@ function! SpaceVim#default#SetMappings() abort
   endif
 
 
-  "Use jk switch to normal mode
-  inoremap jk <esc>
+  "Use kj switch to normal mode
+  inoremap kj <esc>
+
 
   "]<End> or ]<Home> move current line to the end or the begin of current buffer
   nnoremap <silent>]<End> ddGp``
